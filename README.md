@@ -31,3 +31,4 @@ Will run example_text.txt if no input/output file provided.
 
 
 
+<img width="2559" height="1375" alt="output" src="https://github.com/user-attachments/assets/908096cb-4090-43ba-8dc5-1f5feed2f6e3" />
