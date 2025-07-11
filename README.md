@@ -3,7 +3,7 @@
 
 
 ### Windows
-Compile with:
+Compile with developer prompt:
 
 ```bash
 cl main.c
@@ -15,7 +15,6 @@ Run with:
 main.exe input_name.txt output_name.txt
 ```
 
-(*Developer prompt must have `cl` available*)
 
 ---
 
