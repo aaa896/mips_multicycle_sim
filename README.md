@@ -39,7 +39,7 @@ Run with:
   - Miss cost: **3 cycles**
   - Hit cost: **1 cycle**
 
-- **Branch Prediction**: One-bit, always starts as **taken**
+- **Branch Prediction**: One-bit, always starts as taken
 
 ---
 
