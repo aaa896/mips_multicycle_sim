@@ -61,9 +61,9 @@ If no input/output file is provided, the program will run example_text.txt to ex
 - `SUB $d, $s, $t` – Integer Subtract
 - `MUL.D Fd, Fs, Ft` – Floating Point Multiply
 - `DIV.D Fd, Fs, Ft` – Floating Point Divide
-- `BEQ $S, $T, OFF18` – Branch to offset if equal
-- `BNE $S, $T, OFF18` – Branch to offset if not equal
-- `J ADDR28` – Unconditional jump to address
+- `BEQ $S, $T, label\Offset` – Branch to offset if equal
+- `BNE $S, $T, label\offset` – Branch to offset if not equal
+- `J label\relative_offset` – Unconditional jump to address
 
 ---
 
