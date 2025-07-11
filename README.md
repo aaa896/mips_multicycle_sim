@@ -64,11 +64,8 @@ Run with:
 
 ### Default Behavior
 
-If no input/output file is provided, the program will run:
+If no input/output file is provided, the program will run example_text.txt to example_out.txt
 
-```txt
-example_text.txt
-```
 
 
 
