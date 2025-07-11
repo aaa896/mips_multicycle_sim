@@ -33,6 +33,20 @@ Run with:
 
 ---
 
+### Cache and Branch Prediction Details
+
+- **Cache**: 8-set, 2-way associative
+  - Miss cost: **3 cycles**
+  - Hit cost: **1 cycle**
+
+- **Branch Prediction**: One-bit, always starts as **taken**
+
+---
+
+### Default Behavior
+
+If no input/output file is provided, the program will run example_text.txt to example_out.txt
+---
 ### Supported Instructions
 
 - `L.D Fa, Offset(addr)`
@@ -53,18 +67,5 @@ Run with:
 
 ---
 
-### Cache and Branch Prediction
-
-- **Cache**: 8-set, 2-way associative
-  - Miss cost: **3 cycles**
-  - Hit cost: **1 cycle**
-
-- **Branch Prediction**: One-bit, always starts as **taken**
-
----
-
-### Default Behavior
-
-If no input/output file is provided, the program will run example_text.txt to example_out.txt
 
 
